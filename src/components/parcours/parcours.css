@@ -1,0 +1,25 @@
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.25), 0 0.4rem 1.25rem 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2rem 3rem !important;
+}
+
+.vertical-timeline-element-content:hover {
+    background: var(--transparent) !important;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+
+#description {
+    margin: 1.5rem 0 2rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .vertical-timeline-element-date {
+        display: block !important;
+        float: none !important;
+        color: rgb(44,44,44);
+        margin-top: 1.5rem;
+    }
+
+}
+
