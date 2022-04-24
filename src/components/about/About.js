@@ -36,12 +36,10 @@ const About = () => {
             </article>
           </div>
           <p data-aos = "fade-left" data-aos-duration="650">
-          Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Je m'appelle El-Farouk ACHIRAFI, j'ai 18 ans et je suis actuellement en 2ème année de DUT informatique.
+          Depuis tout petit, j'ai toujours été attiré par le domaine de la technologie et de l'informatique,
+          et lorsque je suis arrivé au lycée, j'ai décidé de poursuivre dans la branche de l'informatique afin d'y faire mon métier. Après le bac, je me suis donc dirigé vers un DUT Informatique.
+          À la fin de mon diplôme, j'intégrerai  l'IPI de Toulouse pour un bachelor 3 - développeur fullstack en alternance chez Sopra Steria.
           </p>
 
           <a data-aos = "fade-left" data-aos-duration="650" href="#contact" className="btn btn-primary">Contactez moi</a>

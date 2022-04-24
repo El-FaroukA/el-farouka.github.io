@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/demineur.PNG'
+import IMG2 from '../../assets/Quiz.PNG'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -9,25 +9,28 @@ import IMG6 from '../../assets/portfolio6.jpg'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+let hasDemo = true
 const data = [
   {
     id:1,
     image: IMG1,
-    title: 'Portfolio Projector',
-    repository: 'https://github.com/',
-    demo: '',
+    title: 'Démineur en Java',
+    desc: "Création d'un jeu de démineur pour un projet au cours de mon DUT",
+    repository: 'https://github.com/El-FaroukA/D-mineurJava',
+    demo: 'https://github.com/El-FaroukA/D-mineurJava/raw/main/Demineur.jar',
   },
   {
     id:2,
     image: IMG2,
-    title: 'Portfolio Projector',
-    repository: 'https://github.com/',
+    title: 'Jeu de Quiz en Java',
+    desc: "Création d'un jeu de quiz (Rendez-vous sur le gitlab afin de mieux comprendre le fonctionnement)",
+    repository: 'https://gitlab.iut-blagnac.fr/mpa2021-g24/quizz.git',
     demo: '',
   },
-  {
+  /* {
     id:3,
     image: IMG3,
-    title: 'Portfolio Projector',
+    title: 'Travel Advisor',
     repository: 'https://github.com/',
     demo: '',
   },
@@ -51,7 +54,7 @@ const data = [
     title: 'Portfolio Projector',
     repository: 'https://github.com/',
     demo: '',
-  },
+  }, */
 ]
 
 const Portfolio = () => {
@@ -64,16 +67,17 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, repository, demo}) => {
+          data.map(({id, image, title, desc, repository, demo}) => {
             return (
               <article key={id} data-aos = "fade-up" className="portfolio__item">
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
+                <h5>{desc}</h5>
                 <div className="portfolio__item-cta">
-                  <a href={repository} className="btn">Github</a>
-                  <a href={demo} className="btn btn-primary">Démo</a>
+                  <a href={repository} className="btn">Code source</a>
+                  <a href={demo} className="btn btn-primary" target="_blank">Démo</a>
                 </div>
               </article>
             )
