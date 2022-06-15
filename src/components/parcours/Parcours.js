@@ -13,8 +13,8 @@ let timelineElements = [
     description:
       "Évaluation des moteurs de requête SQL dans un environnement Big Data",
     buttonText: "Site de l'entreprise",
-    url:"https://www.inrae.fr/centres/occitanie-toulouse",
-    date: "Avril 2022 - ",
+    url:"https://www.lipme.fr",
+    date: "Avril 2022 - Juin 2022",
     icon: "work",
   },
   {

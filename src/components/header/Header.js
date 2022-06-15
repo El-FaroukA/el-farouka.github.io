@@ -10,6 +10,7 @@ const Header = () => {
     <header>
         <div className="container header__container">
           <div className="header__details">
+            <h5>Salut moi c'est,</h5>
             <h1>El-Farouk Achirafi</h1>
             <Typical
             loop={Infinity}

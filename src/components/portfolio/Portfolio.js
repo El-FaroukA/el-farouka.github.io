@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/demineur.PNG'
 import IMG2 from '../../assets/Quiz.PNG'
+import IMG3 from '../../assets/portSaph.PNG'
+import IMG4 from '../../assets/pokedex.PNG'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,21 +25,23 @@ const data = [
     repository: 'https://gitlab.iut-blagnac.fr/mpa2021-g24/quizz.git',
     demo: '',
   },
-  /* {
+  {
     id:3,
     image: IMG3,
-    title: 'Travel Advisor',
+    title: 'Portfolio pour une cliente',
+    desc: "Création d'un site portfolio pour une cliente",
     repository: 'https://github.com/',
     demo: '',
   },
   {
     id:4,
     image: IMG4,
-    title: 'Portfolio Projector',
-    repository: 'https://github.com/',
+    title: "Pokedex en React",
+    repository: 'https://github.com/El-FaroukA/pokedex',
+    desc: 'Création d\'un pokedex en React utilisant l\'API de pokeapi',
     demo: '',
   },
-  {
+  /*{
     id:5,
     image: IMG5,
     title: 'Portfolio Projector',
