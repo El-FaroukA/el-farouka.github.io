@@ -10,46 +10,26 @@ const Experience = () => {
       <h2>Aperçu de mes acquis</h2>
       <div className = "container experience__container">   
         <div data-aos = "fade-right" className="experience__frontend">
-            <h3>Développement Frontend</h3>
+            <h3>Langages de programmation et outils</h3>
             <div className="experience__content">
               <article className="experience__details">
                 < BsFillPatchCheckFill className ="experience__details-icon" />
                 <div>
-                  <h4>HTML</h4>
+                  <h4>JAVA</h4>
                   <small className="text-light">Intermediaire</small>
                 </div>
               </article>
               <article className="experience__details">
                 < BsFillPatchCheckFill className ="experience__details-icon" />
                 <div>
-                  <h4>CSS</h4>
+                  <h4>RUST</h4>
                   <small className="text-light">Débutant</small>
                 </div>
               </article>
               <article className="experience__details">
                 < BsFillPatchCheckFill className ="experience__details-icon" />
                 <div>
-                  <h4>JavaScript</h4>
-                  <small className="text-light">Débutant</small>
-                </div>
-              </article>
-              <article className="experience__details">
-                < BsFillPatchCheckFill className ="experience__details-icon" />
-                <div>
-                  <h4>ReactJs</h4>
-                  <small className="text-light">Débutant</small>
-                </div>
-              </article>
-            </div>
-        </div>
-
-        <div data-aos = "fade-left" className="experience__backend">
-          <h3>Développement Backend</h3>
-          <div className="experience__content">
-          <article className="experience__details">
-                < BsFillPatchCheckFill className ="experience__details-icon" />
-                <div>
-                  <h4>Java</h4>
+                  <h4>PYTHON</h4>
                   <small className="text-light">Intermediaire</small>
                 </div>
               </article>
@@ -63,28 +43,75 @@ const Experience = () => {
               <article className="experience__details">
                 < BsFillPatchCheckFill className ="experience__details-icon" />
                 <div>
-                  <h4>Python</h4>
+                  <h4>KOTLIN</h4>
+                  <small className="text-light">Débutant</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                < BsFillPatchCheckFill className ="experience__details-icon" />
+                <div>
+                  <h4>C++</h4>
+                  <small className="text-light">Débutant</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                < BsFillPatchCheckFill className ="experience__details-icon" />
+                <div>
+                  <h4>SOLIDITY</h4>
+                  <small className="text-light">Débutant</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                < BsFillPatchCheckFill className ="experience__details-icon" />
+                <div>
+                  <h4>GIT</h4>
+                  <small className="text-light">Intermediaire</small>
+                </div>
+              </article>
+            </div>
+        </div>
+        <div data-aos = "fade-left" className="experience__backend">
+          <h3>Framework</h3>
+          <div className="experience__content">
+          <article className="experience__details">
+                < BsFillPatchCheckFill className ="experience__details-icon" />
+                <div>
+                  <h4>FLUTTER</h4>
                   <small className="text-light">Intermediaire</small>
                 </div>
               </article>
               <article className="experience__details">
                 < BsFillPatchCheckFill className ="experience__details-icon" />
                 <div>
-                  <h4>Flutter</h4>
+                  <h4>ANGULAR</h4>
                   <small className="text-light">Intermediaire</small>
                 </div>
               </article>
               <article className="experience__details">
                 < BsFillPatchCheckFill className ="experience__details-icon" />
                 <div>
-                  <h4>MySQL</h4>
+                  <h4>REACT</h4>
                   <small className="text-light">Intermediaire</small>
                 </div>
               </article>
               <article className="experience__details">
                 < BsFillPatchCheckFill className ="experience__details-icon" />
                 <div>
-                  <h4>Solidity</h4>
+                  <h4>VUE</h4>
+                  <small className="text-light">Débutant</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                < BsFillPatchCheckFill className ="experience__details-icon" />
+                <div>
+                  <h4>HARDHAT</h4>
+                  <small className="text-light">Débutant</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                < BsFillPatchCheckFill className ="experience__details-icon" />
+                <div>
+                  <h4>SWING</h4>
                   <small className="text-light">Débutant</small>
                 </div>
               </article>

@@ -32,12 +32,6 @@ const Contact = () => {
                 <h5>elfarouk.achirafi@gmail.com</h5>
                 <a href="mailto:elfarouk.achirafi@gmail.com" target="_blank">Envoyez moi un message</a>
             </article>
-            <article className="contact__option">
-                <BsWhatsapp className="contact__option-icon"/>
-                <h4>Whatsapp</h4>
-                <h5>+33768596536</h5>
-                <a href="https://api.whatsapp.com/send?phone=+33768596536" target="_blank">Envoyez moi un message</a>
-            </article>
           </div>
           <form ref={form} onSubmit={sendEmail}>
             <input type="text" name="nom" placeholder="Votre nom" required/>

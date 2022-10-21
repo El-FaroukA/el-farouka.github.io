@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
                 <BsAward className="about__icon"/>
                 <h5>Expériences</h5>
-                <small> - 1 an d'experience</small>
+                <small> 1 an d'experience</small>
             </article>
             <article className="about__card">
                 <VscFolderLibrary className="about__icon"/>
@@ -36,10 +36,11 @@ const About = () => {
             </article>
           </div>
           <p data-aos = "fade-left" data-aos-duration="650">
-          Je m'appelle El-Farouk ACHIRAFI, j'ai 18 ans et je suis actuellement en 2ème année de DUT informatique.
+          Je m'appelle El-Farouk ACHIRAFI, j'ai 18 ans et je suis actuellement en cycle mastère professionnel - expert informatique - ingénieurie logicielle
+          à l'Ipi de Toulouse en alternance chez Sopra Steria.
           Depuis tout petit, j'ai toujours été attiré par le domaine de la technologie et de l'informatique,
           et lorsque je suis arrivé au lycée, j'ai décidé de poursuivre dans la branche de l'informatique afin d'y faire mon métier. Après le bac, je me suis donc dirigé vers un DUT Informatique.
-          À la fin de mon diplôme, j'intégrerai  l'IPI de Toulouse pour un bachelor 3 - développeur fullstack en alternance chez Sopra Steria.
+          À la fin de mon cursus, je souhaiterais me spécialiser dans le monde du web3 et de la blockchain car pour moi ce secteur représente l'avenir de l'internet.
           </p>
 
           <a data-aos = "fade-left" data-aos-duration="650" href="#contact" className="btn btn-primary">Contactez moi</a>

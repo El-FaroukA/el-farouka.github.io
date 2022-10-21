@@ -8,6 +8,17 @@ import 'react-vertical-timeline-component/style.min.css';
 let timelineElements = [
   {
     id: 1,
+    title: "Alternance chez Sopra Steria",
+    location: "Colomiers, Toulouse",
+    description:
+      "Développeur fullstack",
+    buttonText: "Site de l'entreprise",
+    url:"https://www.soprasteria.com/",
+    date: "Septembre 2022 - ",
+    icon: "work",
+  },
+  {
+    id: 2,
     title: "Stage développeur Big Data",
     location: "Castanet-Tolosan, Toulouse",
     description:
@@ -18,7 +29,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 2,
+    id: 3,
     title: "Dut Informatique",
     location: "Université Toulouse Jean Jaurès, IUT Blagnac, Toulouse, France",
     description:
@@ -29,7 +40,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 3,
+    id: 4,
     title: "Baccalauréat Géneral Scientifique",
     location: "Lycée de Sada, Mayotte, France",
     description:
