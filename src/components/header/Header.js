@@ -17,7 +17,9 @@ const Header = () => {
               steps={[
                 "Développeur Full-Stack Junior💻",
                 1000,
-                "Étudiant à l'IUT de Blagnac 🏫",
+                "Étudiant à l'IPI de Toulouse 🏫",
+                1000,
+                "Passionné par le web 3.0 et la blockchain 🚀",
                 1000
               ]}
             />

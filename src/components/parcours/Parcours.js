@@ -36,7 +36,7 @@ let timelineElements = [
       "Cursus informatique sur 2 ans",
     buttonText: "Site de l'IUT",
     url: "https://www.iut-blagnac.fr/fr",
-    date: "Septembre 2020 - ",
+    date: "Septembre 2020 - Juin 2022",
     icon: "school",
   },
   {
@@ -53,8 +53,8 @@ let timelineElements = [
 ];
 
 const Parcours = () => {
-  let workIconStyles = { background: "#FEBEB0" };
-  let schoolIconStyles = { background: "rgba(77, 181, 255, 0.4)" };
+  let workIconStyles = { background: "#B5B1B2" };
+  let schoolIconStyles = { background: "#fff" };
   return (
     <section id="parcours">
       <h5>Mon parcours</h5>
@@ -73,12 +73,13 @@ const Parcours = () => {
                 <VerticalTimelineElement
                   key={element.key}
                   date={element.date}
+                  contentStyle={{ background: '#B5B1B2', color: '#fff' }}
                   dateClassName="date"
                   iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                   icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
                 >
                   <h3 className="vertical-timeline-element-title">{element.title}</h3>
-                  <h5 className="vertical-timeline-element-subtitle">{element.locattion}</h5>
+                  <h5 className="vertical-timeline-element-subtitle">{element.location}</h5>
                   <p id = "description">{element.description}</p>
                   {showButton && (<a className="btn btn-primary" href={element.url}>{element.buttonText}</a>)}
                 </VerticalTimelineElement>

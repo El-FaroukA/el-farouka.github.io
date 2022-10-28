@@ -32,18 +32,16 @@ const About = () => {
                 <VscFolderLibrary className="about__icon"/>
                 <h5>Projets</h5>
                 <small>10+ projets</small>
-                <a href="#portfolio" className="btn">Mes projets</a>
             </article>
           </div>
           <p data-aos = "fade-left" data-aos-duration="650">
-          Je m'appelle El-Farouk ACHIRAFI, j'ai 18 ans et je suis actuellement en cycle mastère professionnel - expert informatique - ingénieurie logicielle
-          à l'Ipi de Toulouse en alternance chez Sopra Steria.
-          Depuis tout petit, j'ai toujours été attiré par le domaine de la technologie et de l'informatique,
-          et lorsque je suis arrivé au lycée, j'ai décidé de poursuivre dans la branche de l'informatique afin d'y faire mon métier. Après le bac, je me suis donc dirigé vers un DUT Informatique.
-          À la fin de mon cursus, je souhaiterais me spécialiser dans le monde du web3 et de la blockchain car pour moi ce secteur représente l'avenir de l'internet.
+            Je m'appelle El-Farouk ACHIRAFI, j'ai 18 ans et je suis actuellement en cycle mastère professionnel - expert informatique - ingénieurie logicielle
+            à l'Ipi de Toulouse en alternance chez Sopra Steria.
+            Depuis tout petit, j'ai toujours été attiré par le domaine de la technologie et de l'informatique,
+            et lorsque je suis arrivé au lycée, j'ai décidé de poursuivre dans la branche de l'informatique afin d'y faire mon métier. Après le bac, je me suis donc dirigé vers un DUT Informatique.
+            À la fin de mon cursus, je souhaiterais me spécialiser dans le monde du web3 et de la blockchain car pour moi ce secteur représente l'avenir de l'internet.
           </p>
-
-          <a data-aos = "fade-left" data-aos-duration="650" href="#contact" className="btn btn-primary">Contactez moi</a>
+          <a className="btn btn-primary" data-aos = "fade-left" data-aos-duration="650" href="#contact" >Contactez moi</a>
         </div>
       </div>
     </section>

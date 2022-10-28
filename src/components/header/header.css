@@ -35,11 +35,11 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: var(--color-white);
 }
 /*============== ME ==================*/
 .me {
-    background: linear-gradient(var(--color-light), transparent);
+    background: linear-gradient(var(--color-white), transparent);
     width: 30rem;
     height: 30rem;
     position: absolute;

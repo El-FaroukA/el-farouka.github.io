@@ -11,14 +11,10 @@
  }
 
  :root {
-     --color-bg: #F2EBE5;
-     --color-bg-variant: #F6F4E8;
-     --color-primary: #ea9784/*#178CA4*/;
-     --color-primary-variant: rgba(77, 181, 255, 0.4);
-     --color-text: #072A40;
+     --color-bg-variant: #B5B1B2 /*ADA9B7*//*B3B6B7*/;
+     --color-primary-variant: #9DD9D2;
      --color-white: white;
      --color-black: black;
-     --color-light: #ebc4bb/*rgba(255, 255, 255, 0.6)*/;
 
      --transition: all 400ms ease;
 
@@ -38,9 +34,10 @@
 
  body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
-    color: var(--color-text);
+    background: var(--color-black);
+    color: var(--color-white);
     line-height:  1.8;
+    cursor: default;
  }
 
  .container {
@@ -67,17 +64,14 @@
  }
 
  section > h2, section > h5 {
-     text-align: center;
-     color: var(--color-black);
+    color: var(--color-white);
+    margin-bottom: 3rem;
+    text-align: center;
  }
 
- section > h2 {
-     color: var(--color-primary);
-     margin-bottom: 3rem;
- }
 
- .text-light {
-    color: var(--color-light);
+.text-light {
+    color: var(--color-white);
 }
 
  a {
@@ -92,7 +86,7 @@
  .btn {
      width: max-content;
      display: inline-block;
-     color: var(--color-primary);
+     color: var(--color-white);
      padding: 0.75rem 1.2rem;
      border-radius:  0.4rem;
      cursor: pointer;
@@ -107,8 +101,8 @@
  }
 
  .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: var(--color-white);
+    color: var(--color-black);
 }
 
 img {
