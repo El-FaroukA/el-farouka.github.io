@@ -1,6 +1,6 @@
 {
-  "name": "react-portfolio-website-1",
-  "homepage": "http://el-farouka.github.io/react-portfolio",
+  "name": "portfolio_en_react",
+  "homepage": "http://el-farouka.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
