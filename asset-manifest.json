@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.8d6fb40d.chunk.css",
-  "main.js": "/static/js/main.5ba64770.chunk.js",
-  "main.js.map": "/static/js/main.5ba64770.chunk.js.map",
+  "main.css": "/static/css/main.cbecf341.chunk.css",
+  "main.js": "/static/js/main.ae5f33dd.chunk.js",
+  "main.js.map": "/static/js/main.ae5f33dd.chunk.js.map",
   "static/css/1.839c6f8f.chunk.css": "/static/css/1.839c6f8f.chunk.css",
   "static/js/1.3c5f20f2.chunk.js": "/static/js/1.3c5f20f2.chunk.js",
   "static/js/1.3c5f20f2.chunk.js.map": "/static/js/1.3c5f20f2.chunk.js.map",
@@ -16,9 +16,9 @@
   "static/media/pokedex.PNG": "/static/media/pokedex.08b9c6e6.PNG",
   "static/media/work.b5594cf8.svg": "/static/media/work.b5594cf8.svg",
   "static/media/school.02283109.svg": "/static/media/school.02283109.svg",
-  "static/css/main.8d6fb40d.chunk.css.map": "/static/css/main.8d6fb40d.chunk.css.map",
   "static/css/1.839c6f8f.chunk.css.map": "/static/css/1.839c6f8f.chunk.css.map",
+  "static/css/main.cbecf341.chunk.css.map": "/static/css/main.cbecf341.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.450ff150873cf051f9a662d384a88faa.js": "/precache-manifest.450ff150873cf051f9a662d384a88faa.js",
+  "precache-manifest.6df870b230f3cc154c77e27eca149d91.js": "/precache-manifest.6df870b230f3cc154c77e27eca149d91.js",
   "service-worker.js": "/service-worker.js"
 }
